@@ -19,7 +19,7 @@ export class FpasswordPage implements OnInit {
   ngOnInit() {
   }
 
-  async onSUbmit(){
+  async onSubmit(){
     const email = (document.getElementById('email') as HTMLInputElement).value;
     const password = (document.getElementById('password') as HTMLInputElement).value;
 
