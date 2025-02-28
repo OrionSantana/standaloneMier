@@ -11,7 +11,7 @@ export class OpenaiService {
   constructor() { }
 
   private apiUrl = 'https://api.openai.com/v1/chat/completions';
-  private apiKey = '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';
+  private apiKey = 'key';
 
   // Método para generar ideas
 async generateIdea(prompt: string): Promise<string> {
